@@ -1,72 +1,34 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Визитка Компании</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        header {
-            text-align: center;
-            padding: 20px 0;
-        }
-        h1 {
-            margin: 0;
-        }
-        p {
-            line-height: 1.6;
-        }
-        .social-links a {
-            display: inline-block;
-            margin: 0 10px;
-            text-decoration: none;
-            color: #333;
-        }
-        .social-links a:hover {
-            color: #007BFF;
-        }
-        footer {
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 20px;
-            background-color: #333;
-            color: white;
-        }
-    </style>
+    <title>TraderCoders</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Название Компании</h1>
-        </header>
-        <main>
-            <p>Добро пожаловать на наш сайт! Мы предлагаем [описание вашей компании].</p>
-            <p>Контактная информация:</p>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Логотип TraderCoders">
+        </div>
+        <nav>
             <ul>
-                <li>Телефон: +1234567890</li>
-                <li>Email: example@example.com</li>
+                <li><a href="https://t.me/yourtelegram" target="_blank">Telegram</a></li>
+                <li><a href="https://www.notion.so/yournotion" target="_blank">Notion</a></li>
+                <li><a href="https://www.tradingview.com/yourtradingview" target="_blank">TradingView</a></li>
+                <li><a href="https://www.youtube.com/youryoutube" target="_blank">YouTube</a></li>
             </ul>
-            <div class="social-links">
-                <a href="https://t.me/yourtelegram" target="_blank">Telegram</a>
-                <a href="https://www.notion.so/yournotion" target="_blank">Notion</a>
-                <a href="https://www.tradingview.com/yourtradingview" target="_blank">TradingView</a>
-                <!-- Добавьте другие ссылки на соцсети здесь -->
-            </div>
-        </main>
-    </div>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Добро пожаловать в TraderCoders</h1>
+            <p>Мы предлагаем лучшие решения для трейдинга и программирования.</p>
+        </section>
+    </main>
     <footer>
-        &copy; 2024 Название Компании
+        <p>&copy; 2024 TraderCoders. Все права защищены.</p>
     </footer>
 </body>
 </html>
