@@ -5,14 +5,16 @@ body {
     background-color: #f4f4f4;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 header {
     background-color: #1e222d;
     color: white;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    padding: 10px 0;
 }
 
 .logo img {
@@ -21,14 +23,14 @@ header {
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
     display: flex;
-    gap: 20px;
+    justify-content: flex-end;
 }
 
 nav ul li {
-    display: inline;
+    margin-left: 20px;
 }
 
 nav ul li a {
@@ -41,26 +43,57 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-main {
-    padding: 40px 20px;
+#hero {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero .btn {
+    background-color: #1e222d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero .btn:hover {
+    background-color: #555;
+}
+
+.section {
+    padding: 60px 20px;
     text-align: center;
 }
 
-.intro h1 {
-    color: #1e222d;
+.section h2 {
+    margin-bottom: 20px;
 }
 
-.intro p {
-    color: #333;
-    font-size: 1.2em;
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #1e222d;
+    font-weight: bold;
 }
 
 footer {
     background-color: #1e222d;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
 }
