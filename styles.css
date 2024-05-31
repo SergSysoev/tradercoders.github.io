@@ -15,10 +15,14 @@ header {
     background-color: #1e222d;
     color: white;
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo img {
-    height: 40px;
+    height: 50px;
+    width: auto; /* Сохраняет пропорции логотипа */
 }
 
 nav ul {
@@ -26,7 +30,6 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: flex-end;
 }
 
 nav ul li {
@@ -85,6 +88,15 @@ nav ul li a:hover {
     text-decoration: none;
     color: #1e222d;
     font-weight: bold;
+}
+
+.social-links li a i {
+    font-size: 24px; /* Размер иконок */
+    color: white;
+}
+
+.social-links li a:hover i {
+    color: #007BFF;
 }
 
 footer {
